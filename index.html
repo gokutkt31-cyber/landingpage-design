@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaSpark — Build the Future</title>
+  <meta name="description" content="NovaSpark helps innovators build, launch, and scale products with cutting-edge tools and a powerful platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <span class="logo-icon">⚡</span>
+        NovaSpark
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#testimonials" class="nav__link">Reviews</a></li>
+        <li><a href="#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="#" class="btn btn--ghost">Log In</a>
+        <a href="#" class="btn btn--primary">Get Started</a>
+      </div>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <div class="hero__badge">🚀 Now in Public Beta</div>
+        <h1 class="hero__title">
+          Build Products<br />
+          <span class="gradient-text">That Change</span><br />
+          The World
+        </h1>
+        <p class="hero__subtitle">
+          NovaSpark is your all-in-one launchpad for turning bold ideas into
+          real, scalable products — faster than ever before.
+        </p>
+        <div class="hero__cta">
+          <a href="#" class="btn btn--primary btn--lg" id="hero-cta-start">Start For Free</a>
+          <a href="#features" class="btn btn--outline btn--lg" id="hero-cta-demo">See How It Works ↓</a>
+        </div>
+        <div class="hero__trust">
+          <span class="trust-label">Trusted by teams at</span>
+          <div class="trust-logos">
+            <span class="trust-logo">Google</span>
+            <span class="trust-dot">·</span>
+            <span class="trust-logo">Stripe</span>
+            <span class="trust-dot">·</span>
+            <span class="trust-logo">Notion</span>
+            <span class="trust-dot">·</span>
+            <span class="trust-logo">Figma</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__image-wrapper">
+        <img
+          src="hero_background_1774968637912.png"
+          alt="NovaSpark platform visualization"
+          class="hero__image"
+          id="hero-image"
+          loading="lazy"
+        />
+        <div class="hero__image-glow"></div>
+      </div>
+      <div class="hero__scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES SECTION ===== -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Why NovaSpark</p>
+          <h2 class="section-title">Everything you need to <span class="gradient-text">move fast</span></h2>
+          <p class="section-subtitle">A complete toolkit designed for ambitious teams who want to ship without compromise.</p>
+        </div>
+        <div class="features__grid">
+
+          <div class="feature-card feature-card--highlight" id="feature-build">
+            <div class="feature-icon">🏗️</div>
+            <h3 class="feature-title">Visual Builder</h3>
+            <p class="feature-desc">Drag, drop, and deploy beautiful interfaces with zero boilerplate. Our visual editor keeps you in flow.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+
+          <div class="feature-card" id="feature-scale">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Instant Scaling</h3>
+            <p class="feature-desc">Autoscale from 10 to 10 million users without touching a config file. Infrastructure that grows with you.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+
+          <div class="feature-card" id="feature-analytics">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">Real-Time Analytics</h3>
+            <p class="feature-desc">Deep insights into user behavior, performance, and business metrics — all in one unified dashboard.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+
+          <div class="feature-card" id="feature-collab">
+            <div class="feature-icon">🤝</div>
+            <h3 class="feature-title">Team Collaboration</h3>
+            <p class="feature-desc">Work together in real time. Comment, review, version, and ship as a team without the chaos.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+
+          <div class="feature-card" id="feature-security">
+            <div class="feature-icon">🔐</div>
+            <h3 class="feature-title">Enterprise Security</h3>
+            <p class="feature-desc">SOC 2 compliant, end-to-end encrypted, and built with zero-trust architecture from day one.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+
+          <div class="feature-card" id="feature-api">
+            <div class="feature-icon">🔌</div>
+            <h3 class="feature-title">Open API</h3>
+            <p class="feature-desc">Connect to 200+ integrations or build your own with our fully documented REST and GraphQL APIs.</p>
+            <a href="#" class="feature-link">Learn more →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT / HIGHLIGHT SECTION ===== -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__visual">
+          <div class="about__card-stack">
+            <div class="mini-card mini-card--1">
+              <div class="mini-card__icon">🎯</div>
+              <div>
+                <div class="mini-card__label">Goal Tracking</div>
+                <div class="mini-card__value">4 of 5 completed</div>
+              </div>
+            </div>
+            <div class="mini-card mini-card--2">
+              <div class="mini-card__icon">🚀</div>
+              <div>
+                <div class="mini-card__label">Deployment</div>
+                <div class="mini-card__value">Live in 2.3s ✅</div>
+              </div>
+            </div>
+            <div class="mini-card mini-card--3">
+              <div class="mini-card__icon">📈</div>
+              <div>
+                <div class="mini-card__label">Growth</div>
+                <div class="mini-card__value">+340% this month</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="section-tag">Our Story</p>
+          <h2 class="section-title">Built by builders, <span class="gradient-text">for builders</span></h2>
+          <p class="about__para">
+            We started NovaSpark because we were tired of juggling dozens of tools
+            just to launch a simple product. So we built the platform we always
+            wished existed — one that handles the complexity so you can focus
+            on what actually matters: <strong>your idea.</strong>
+          </p>
+          <p class="about__para">
+            Today, thousands of teams use NovaSpark to go from concept to
+            production in record time, without sacrificing quality or control.
+          </p>
+          <div class="about__actions">
+            <a href="#" class="btn btn--primary" id="about-cta">Join Our Community</a>
+            <a href="#" class="btn btn--ghost" id="about-story">Read Our Story →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS SECTION ===== -->
+    <section class="stats section" id="stats">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">By the Numbers</p>
+          <h2 class="section-title">Built for <span class="gradient-text">scale</span></h2>
+        </div>
+        <div class="stats__grid">
+          <div class="stat-card" id="stat-users">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Active Teams</div>
+            <div class="stat-desc">Shipping products every day</div>
+          </div>
+          <div class="stat-card" id="stat-deploys">
+            <div class="stat-number">2M+</div>
+            <div class="stat-label">Deployments</div>
+            <div class="stat-desc">Launched without a hitch</div>
+          </div>
+          <div class="stat-card" id="stat-uptime">
+            <div class="stat-number">99.99%</div>
+            <div class="stat-label">Uptime SLA</div>
+            <div class="stat-desc">Reliability you can count on</div>
+          </div>
+          <div class="stat-card" id="stat-support">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Support</div>
+            <div class="stat-desc">Real humans, always on</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Loved by Builders</p>
+          <h2 class="section-title">Don't just take <span class="gradient-text">our word for it</span></h2>
+          <p class="section-subtitle">Thousands of teams trust NovaSpark to ship faster and smarter.</p>
+        </div>
+        <div class="testimonials__grid">
+
+          <div class="testimonial-card" id="testimonial-1">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"NovaSpark cut our time-to-launch from weeks to hours. The visual builder is insanely powerful — we shipped our entire MVP over a weekend."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg,#6c63ff,#06d6a0)">AK</div>
+              <div>
+                <div class="testimonial-name">Ayesha Khan</div>
+                <div class="testimonial-role">CTO, Dropwave</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card testimonial-card--featured" id="testimonial-2">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"I've tried every platform out there. Nothing comes close to NovaSpark's combination of speed, flexibility, and reliability. It's the last tool I'll ever need."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg,#ff6b6b,#ffd93d)">MR</div>
+              <div>
+                <div class="testimonial-name">Marcus Reid</div>
+                <div class="testimonial-role">Founder, Orbitly</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" id="testimonial-3">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"The analytics dashboard alone is worth it. Real-time data with zero setup — our team went from guessing to knowing in a single afternoon."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg,#06d6a0,#4fc3f7)">SL</div>
+              <div>
+                <div class="testimonial-name">Sofia Liu</div>
+                <div class="testimonial-role">Head of Product, Syncro</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRICING SECTION ===== -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Simple Pricing</p>
+          <h2 class="section-title">One plan for every <span class="gradient-text">stage of growth</span></h2>
+          <p class="section-subtitle">No hidden fees. Cancel anytime. Start free and scale as you go.</p>
+        </div>
+        <div class="pricing__grid">
+
+          <div class="pricing-card" id="pricing-free">
+            <div class="pricing-label">Free</div>
+            <div class="pricing-price"><span class="pricing-amount">$0</span><span class="pricing-period">/mo</span></div>
+            <p class="pricing-desc">Perfect for side projects and solo builders getting started.</p>
+            <ul class="pricing-features">
+              <li class="pricing-feature"><span class="pricing-check">✓</span> 3 projects</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> 10,000 deployments/mo</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Community support</li>
+              <li class="pricing-feature pricing-feature--off"><span class="pricing-x">✕</span> Custom domains</li>
+              <li class="pricing-feature pricing-feature--off"><span class="pricing-x">✕</span> Advanced analytics</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block" id="pricing-free-cta">Get Started Free</a>
+          </div>
+
+          <div class="pricing-card pricing-card--popular" id="pricing-pro">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-label">Pro</div>
+            <div class="pricing-price"><span class="pricing-amount">$29</span><span class="pricing-period">/mo</span></div>
+            <p class="pricing-desc">For growing teams that need power without the complexity.</p>
+            <ul class="pricing-features">
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Unlimited projects</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> 2M deployments/mo</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Priority support</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Custom domains</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Advanced analytics</li>
+            </ul>
+            <a href="#" class="btn btn--primary btn--block" id="pricing-pro-cta">Start Pro Trial</a>
+          </div>
+
+          <div class="pricing-card" id="pricing-enterprise">
+            <div class="pricing-label">Enterprise</div>
+            <div class="pricing-price"><span class="pricing-amount">Custom</span></div>
+            <p class="pricing-desc">Tailored plans, SLAs, and dedicated support for large teams.</p>
+            <ul class="pricing-features">
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Everything in Pro</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> SSO &amp; SAML</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Dedicated SLA</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Onboarding specialist</li>
+              <li class="pricing-feature"><span class="pricing-check">✓</span> Audit logs</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block" id="pricing-enterprise-cta">Contact Sales</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner section" id="contact">
+      <div class="container cta-banner__inner">
+        <div class="cta-banner__glow"></div>
+        <h2 class="cta-banner__title">Ready to launch your next big thing?</h2>
+        <p class="cta-banner__sub">Join 50,000+ teams already building on NovaSpark. No credit card required.</p>
+        <div class="cta-banner__email" id="cta-email-row">
+          <input type="email" class="cta-email-input" id="cta-email-input" placeholder="you@company.com" />
+          <a href="#" class="btn btn--white btn--lg" id="cta-start-free">Get Early Access</a>
+        </div>
+        <p class="cta-banner__note">Already have an account? <a href="#" class="cta-login-link">Log in →</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo footer__logo">
+          <span class="logo-icon">⚡</span>
+          NovaSpark
+        </a>
+        <p class="footer__tagline">The platform for ambitious builders.</p>
+        <div class="footer__socials">
+          <a href="#" class="social-link" aria-label="Twitter" id="social-twitter">𝕏</a>
+          <a href="#" class="social-link" aria-label="GitHub" id="social-github">⌥</a>
+          <a href="#" class="social-link" aria-label="LinkedIn" id="social-linkedin">in</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Product</h4>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Features</a></li>
+          <li><a href="#" class="footer__link">Pricing</a></li>
+          <li><a href="#" class="footer__link">Changelog</a></li>
+          <li><a href="#" class="footer__link">Roadmap</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Developers</h4>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Documentation</a></li>
+          <li><a href="#" class="footer__link">API Reference</a></li>
+          <li><a href="#" class="footer__link">Status</a></li>
+          <li><a href="#" class="footer__link">Open Source</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Company</h4>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">About Us</a></li>
+          <li><a href="#" class="footer__link">Blog</a></li>
+          <li><a href="#" class="footer__link">Careers</a></li>
+          <li><a href="#" class="footer__link">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p class="footer__copy">© 2026 NovaSpark, Inc. All rights reserved.</p>
+      <div class="footer__legal">
+        <a href="#" class="footer__link">Privacy Policy</a>
+        <a href="#" class="footer__link">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky header shadow on scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 30);
+    });
+
+    // Mobile hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav__links--open');
+      hamburger.classList.toggle('nav__hamburger--open');
+    });
+
+    // Intersection Observer for scroll-in animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(
+      '.feature-card, .stat-card, .mini-card, .about__text, .about__visual, .testimonial-card, .pricing-card, .cta-banner__inner'
+    ).forEach(el => {
+      el.classList.add('fade-in');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
